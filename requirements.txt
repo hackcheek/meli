@@ -1,0 +1,7 @@
+aiohttp
+openai
+pydantic
+beautifulsoup4
+pydantic_settings
+pandas
+tqdm
