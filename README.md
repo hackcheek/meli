@@ -1,15 +1,15 @@
-## Prueba Tecnica MeLi
+# Prueba Tecnica MeLi
 
-### Correr las pipelines
+## Correr las pipelines
 
-1. Setup
+### Setup
 
 instalar dependencias
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Correr Pipeline Mercado Libre "scrapper" 
+### Correr Pipeline que "scrapea" data de Mercado Libre
 
 Para correr esta pipeline es necesario contar con un token de acceso de Mercado Libre. Obtenerlo en [https://auth.mercadolibre.com.ar/developers/apps](https://auth.mercadolibre.com.ar/developers/apps)
 Parametros de entrada:
@@ -25,7 +25,7 @@ python run_meli_pipeline.py \
     --query example
 ```
 
-3. Correr Pipeline que "hydrata" (mejora) las descripciones
+### Correr Pipeline que "hydrata" (mejora) las descripciones
 
 Para correr esta pipeline es necesario contar con una api_key de OpenAI. Obtenerlo en [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
 Parametros de entrada:
